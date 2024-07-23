@@ -11,7 +11,7 @@ public class SameOrNah {
         System.out.print("Enter the second word: ");
         String word2 = scanner.nextLine();
 
-        if (word1.equals(word2)) {
+        if (word1.toUpperCase().equals(word2.toUpperCase())) {
             System.out.println("The words are the same");
         } else {
             System.out.println("The words are different");
